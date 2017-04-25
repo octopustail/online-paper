@@ -1,0 +1,22 @@
+{
+  "name": "tdd-fizzbuzzwhizz-js",
+  "version": "1.0.0",
+  "description": "Powered by ThoughtWorks School",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tws-online-quiz/tdd-fizzbuzzwhizz-js.git"
+  },
+  "author": "ThoughtWorks School",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/tws-online-quiz/tdd-fizzbuzzwhizz-js/issues"
+  },
+  "homepage": "https://school.thoughtworks.cn",
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  }
+}
