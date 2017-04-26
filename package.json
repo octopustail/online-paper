@@ -2,9 +2,10 @@
   "name": "tdd-fizzbuzzwhizz-js",
   "version": "1.0.0",
   "description": "Powered by ThoughtWorks School",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "jasmine"
+    "start": "node app.js",
+    "test": "node run-tests.js"
   },
   "repository": {
     "type": "git",
