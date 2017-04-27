@@ -1,5 +1,5 @@
 {
-  "name": "tdd-fizzbuzzwhizz-js",
+  "name": "js-online-quiz-template",
   "version": "1.0.0",
   "description": "Powered by ThoughtWorks School",
   "main": "app.js",
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tws-online-quiz/tdd-fizzbuzzwhizz-js.git"
+    "url": "git+https://github.com/tws-stack/js-online-quiz-template.git"
   },
   "author": "ThoughtWorks School",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/tws-online-quiz/tdd-fizzbuzzwhizz-js/issues"
+    "url": "https://github.com/tws-stack/js-online-quiz-template/issues"
   },
   "homepage": "https://school.thoughtworks.cn",
   "devDependencies": {
