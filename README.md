@@ -8,3 +8,23 @@
 4. 写完内容完毕，push：```$ git push -u origin master ```
 5. 然后切换到answer分支并merge ``` $ git checkout answer && git merge master```
 6. 写完answer内容，push：```$ git push -u origin master ```
+
+
+## 每道题请添加下列内容
+
+
+    ## 如何使用
+    
+    首先初次下载完需要安装依赖：
+    ```
+      npm install
+    ```
+    
+    然后才能执行测试：
+    
+    ```
+      npm test
+    ```
+    
+    可以通过测试来检测本地代码是否完成作业要求，测试通过即可提交到github，把git库地址填到答题页面，并提交表单。
+    
