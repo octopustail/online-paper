@@ -1,5 +1,5 @@
 {
-  "name": "js-online-quiz-template",
+  "name": "sum-of-integers-in-string",
   "version": "1.0.0",
   "description": "Powered by ThoughtWorks School",
   "main": "app.js",
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tws-stack/js-online-quiz-template.git"
+    "url": "git+https://github.com/tw-online-quiz/sum-of-integers-in-string.git"
   },
   "author": "ThoughtWorks School",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/tws-stack/js-online-quiz-template/issues"
+    "url": "https://github.com/tw-online-quiz/sum-of-integers-in-string/issues"
   },
   "homepage": "https://school.thoughtworks.cn",
   "devDependencies": {
