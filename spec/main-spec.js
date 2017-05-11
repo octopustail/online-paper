@@ -2,14 +2,9 @@ const main = require('../main/main');
 
 describe('main()', () => {
 
-    it('should console log "Debug Info"', () => {
-        spyOn(console, 'log');
-        main();
-        expect(console.log).toHaveBeenCalledWith('Debug Info');
+    it('should calculate the sum', () => {
+      expect(main("123")).toBe(6);
+      expect(main("102")).toBe(3);
     });
 
-    it('should return "Hello World!"', () => {
-        let actual = main();
-        expect(actual).toBe('Hello World!');
-    });
 });
