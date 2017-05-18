@@ -1,3 +1,3 @@
 module.exports = function main() {
-  // Write your cade here
+  // Write your code here
 };
