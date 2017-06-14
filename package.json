@@ -1,5 +1,5 @@
 {
-  "name": "sum-of-integers-in-string",
+  "name": "exam-paper",
   "version": "1.0.0",
   "description": "Powered by ThoughtWorks School",
   "main": "app.js",
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tw-online-quiz/sum-of-integers-in-string.git"
+    "url": "git+https://github.com/tw-online-quiz/exam-paper.git"
   },
   "author": "ThoughtWorks School",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/tw-online-quiz/sum-of-integers-in-string/issues"
+    "url": "https://github.com/tw-online-quiz/exam-paper/issues"
   },
   "homepage": "https://school.thoughtworks.cn",
   "devDependencies": {
