@@ -1,10 +1,9 @@
-const main = require('../main/main');
+let fs = require("fs");
 
 describe('main()', () => {
 
-    it('should calculate the sum', () => {
-      expect(main("123")).toBe(6);
-      expect(main("102")).toBe(3);
+    it('should pass', () => {
+      expect(fs.statSync("index.html").isFile()).toBe(true);
     });
 
 });
