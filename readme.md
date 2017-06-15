@@ -33,6 +33,7 @@
 6. [git简易指南](http://gitref.org/zh/index.html)
 7. [github用法](https://guides.github.com/activities/hello-world/)
 8. [ECMAScript 6 入门](http://es6.ruanyifeng.com/)
+9. [W3School](http://www.w3school.com.cn/)
 
 
 ## 答题流程
