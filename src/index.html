@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML-练习试卷</title>
+    <script src="index.js"></script>
+</head>
+<body>
+<h1>统一建模语言理论测试</h1>
+<div class="info">
+    <div class="test-info">
+        <span>考试科目：统一建模语言</span>
+        <span>时间：100分钟 </span>
+        <span>得分：100分</span>
+    </div>
+    <div class="student-info">
+        <span>班级：<input type="text" value="1班"></span>
+        <span>学号：<input type="text" value="001"></span>
+        <span>姓名：<input type="text" value="王小闹"></span>
+    </div>
+    <div class="test">
+        <div class="fill-blank">
+            <h2>一、选择题</h2>
+            <div>1.UML的中文全称：<input type="text" value="1班"></div>
+            <div>2.对象最突出的特征：<input type="text" value="1班"><input type="text" value="1班"><input type="text" value="1班">
+            </div>
+        </div>
+        <div class="singlechose">
+            <h2>一、选择题</h2>
+            <div id="singlechose_1">
+                <span>UML与软件工程的关系</span>
+                <ul>
+                    <li><input type="radio">(A)UML就是软件工程</li>
+                    <li><input type="radio">(B)UML参与到软件开发的几个阶段</li>
+                    <li><input type="radio">(C)UML与软件工程无关</li>
+                    <li><input type="radio">(D)UML是软件工程的一部分</li>
+                </ul>
+            </div>
+            <div id="singlechose_2">
+                <span>Java语言支持</span>
+                <ul>
+                    <li><input type="radio">(A)单继承</li>
+                    <li><input type="radio">(B)多继承</li>
+                    <li><input type="radio">(C)单继承与多继承都支持</li>
+                    <li><input type="radio">(D)单继承与多继承都不支持</li>
+                </ul>
+            </div>
+        </div>
+        <div class="multiple">
+            <h2>二、多选题</h2>
+            <div id="multiple_1">
+                <span>用户的粒度分为一下哪三种</span>
+                <ul>
+                    <li><input type="checkbox">(A)概述级</li>
+                    <li><input type="checkbox">(B)需求级</li>
+                    <li><input type="checkbox">(C)用户目标级</li>
+                    <li><input type="checkbox">(D)自功能级</li>
+                </ul>
+            </div>
+            <div id="multiple_2">
+                <span>Java语言支持</span>
+                <ul>
+                    <li><input type="checkbox">(A)名称</li>
+                    <li><input type="checkbox">(B)属性</li>
+                    <li><input type="checkbox">(C)操作</li>
+                    <li><input type="checkbox">(D)方法</li>
+                </ul>
+            </div>
+        </div>
+        <div class="true-false">
+            <h2>三、判断题</h2>
+            <div>1.用例图只是用于客户交流和沟通，用于确定用户需求：<input type="radio" value="1班">对<input type="radio" value="1班">错</div>
+            <div>1.在状态图中，终止状态在一个状态图中允许有任意多个：<input type="radio" value="1班">对<input type="radio" value="1班">错</div>
+
+        </div>
+        <div class="summary">
+            <h2>三、判断题</h2>
+            <div>1.简述什么是模型以及模型的表现形式：</div>
+            <textarea>
+                模型是对现实世界的简化和抽象。
+            </textarea>
+
+        </div>
+    </div>
+    <input type="button" id="calScoreBtn" value="计算成绩">
+
+</div>
+</body>
+
+</html>
